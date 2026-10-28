@@ -2,7 +2,9 @@
 
 A dark, mobile-friendly running companion for choosing your next goal and training towards it.
 
-[Open the live app](https://stride-pace-planner.genialsnail2053.chatgpt.site)
+[Open Stride on GitHub Pages](https://becseai7.github.io/stride/)
+
+[Original Sites deployment](https://stride-pace-planner.genialsnail2053.chatgpt.site)
 
 ## Features
 
@@ -40,7 +42,9 @@ Open http://localhost:5173. HTTPS or localhost is required for browser geolocati
 
 ## Deployment
 
-The current app is hosted with Sites. This GitHub repository contains a copy of the source; GitHub pushes do not automatically deploy the hosted app. Any static host can serve `dist/`. The included Sites project ID identifies the existing deployment and is not a credential.
+GitHub Pages publishes `dist/` using `.github/workflows/pages.yml`. Changes to `dist/` or the Pages workflow on `main` deploy automatically; the workflow can also be run manually from Actions. The public site is https://becseai7.github.io/stride/.
+
+The original Sites deployment is separate and does not update from GitHub pushes. The included Sites project ID identifies that deployment and is not a credential.
 
 ## Practical limits
 
